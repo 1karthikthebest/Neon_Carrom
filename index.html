@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <title>Neon Carrom</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">NEON CARROM</div>
+
+    <div class="info">
+      <div class="badge">
+        P1: <b id="score1">0</b>
+      </div>
+
+      <div class="badge">
+        P2: <b id="score2">0</b>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div id="game">
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="controls">
+
+      <div id="message">
+        YOUR TURN — AIM & SHOOT
+      </div>
+
+      <button id="newGame">
+        NEW GAME
+      </button>
+
+      <div id="help">
+        Drag from the striker to aim. Release to shoot.
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
