@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
 
-  <title>Neon Carrom</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no"
+    >
 
-  <link rel="stylesheet" href="style.css">
+    <title>Neon Carrom</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header>
-    <div class="logo">NEON CARROM</div>
+    <!-- HEADER -->
+    <header>
 
-    <div class="info">
-      <div class="badge">
-        P1: <b id="score1">0</b>
-      </div>
+        <div class="logo">
+            NEON CARROM
+        </div>
 
-      <div class="badge">
-        P2: <b id="score2">0</b>
-      </div>
-    </div>
-  </header>
+        <div class="info">
 
-  <main>
+            <div class="badge">
+                P1: <b id="score1">0</b>
+            </div>
 
-    <div id="game">
-      <canvas id="canvas"></canvas>
-    </div>
+            <div class="badge">
+                P2: <b id="score2">0</b>
+            </div>
 
-    <div class="controls">
+        </div>
 
-      <div id="message">
-        YOUR TURN — AIM & SHOOT
-      </div>
+    </header>
 
-      <button id="newGame">
-        NEW GAME
-      </button>
 
-      <div id="help">
-        Drag from the striker to aim. Release to shoot.
-      </div>
+    <!-- MAIN GAME -->
+    <main>
 
-    </div>
+        <div id="game">
 
-  </main>
+            <canvas id="canvas"></canvas>
 
-  <script src="script.js"></script>
+        </div>
+
+
+        <!-- GAME CONTROLS -->
+        <div class="controls">
+
+            <div id="message">
+                YOUR TURN — AIM & SHOOT
+            </div>
+
+            <button id="newGame">
+                NEW GAME
+            </button>
+
+            <div id="help">
+                Drag from the striker to aim.
+                Release to shoot.
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
 
 </body>
+
 </html>
